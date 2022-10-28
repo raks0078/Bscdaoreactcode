@@ -1,0 +1,28 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@use "utils" as *;
+
+$color_type_0: rgb(1, 6, 13);
+
+.main {
+  @include flex-column;
+  background-color: $color_type_0;
+  zoom:80%;
+}
+.main_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 18473px;
+}
+.decorator {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+  object-fit: contain;
+  object-position: center top;
+}
+.decorator_layout {
+  position: absolute;
+  top: 7100px;
+  left: 932px;
+  width: 1809px;
+}
